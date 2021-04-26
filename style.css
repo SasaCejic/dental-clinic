@@ -1,0 +1,370 @@
+body,html{
+	height: 100%;
+	margin:0;
+}
+body{
+	background-repeat: repeat;
+	background-size: 200px 100px;
+	background-color: azure;
+}
+#overlay{
+    background-image: url("slike/background2.jpg");
+    background-size: 100% 100%;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+#naziv{
+	font-family:fantasy;
+	font-style: italic;
+	color:#40E0D0;
+	font-size: 100px;
+	text-align: center;
+	width:100%;
+	height: 50%;
+	margin-bottom: 100px;
+}
+#holder-sekcija{
+	margin:0;
+	padding: 0;
+	width:100%;
+	text-align:center;
+	height: 50%;
+}
+.levo{
+	width:50%;
+	height: 100%;
+	float:left;
+}
+.desno{
+	width:50%;
+	height: 100%;
+	float:right;
+}
+.levo>p, .desno>p{
+	font-size: 40px;
+}
+
+.desno>input, .levo>input{
+	font-size: 20px;
+}
+#obavestenje,#forma_vreme{
+	background-color: silver;
+	width:500px;
+	height: 300px;
+	margin:200px auto;
+	text-align: center;
+}
+#forma_login{
+	background-color: silver;
+	width:500px;
+	height: auto;
+	padding-bottom:10px;
+	margin:200px auto;
+	text-align: center;
+}
+
+#forma_login, #forma_pregled{
+	display: none;
+}
+#forma_pregled{
+	background-color: silver;
+	width:600px;
+	height:auto;
+	padding-bottom:10px;
+	margin:200px auto;
+	text-align: center;
+}
+#forma_zakazivanje{
+	background-color: silver;
+	width:600px;
+	height:600px;
+	margin:150px auto;
+	text-align: center;
+}
+.unos_pregled{
+	width:200px;
+	height: 30px;
+	margin:20px;
+}
+.unos_pregled_vreme{
+	width:200px;
+	height: 30px;
+	margin:50px;
+}
+#forma_pregled>table, #forma_zakazivanje>table{
+	margin: auto;
+}
+legend{
+	font-size: 30px;
+	color:white;
+	margin: 20px;
+}
+.tekstualni_unos{
+	width:70%;
+	height: 30px;
+	margin:20px;
+}
+#uloguj_se, #zakazi_pregled, #dalje{
+	margin-top: 20px;
+	padding: 15px;
+	width:200px;
+	background-color: #696969;
+	color:white;
+}
+.invisible{
+	display: none;
+}
+#greske{
+	margin: auto;
+	height: auto;
+	width:100%;
+	text-align: center;
+	font-size: 30px;
+	color:red;
+	margin-top:100px;
+}
+#forma_pregled>table{
+	text-align:center;
+}
+#forma_zakazivanje>table{
+	text-align:center;
+}
+
+#meni{
+	width:100%;
+	height: 100px;
+	background-color:silver;
+}
+
+#meni>ul{
+	margin:0;
+	float:right;
+	height: 100%;
+	padding: 0;
+	width:80%;
+	text-align: right;
+}
+#meni>ul>li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size:20px;
+	margin-top: 30px;
+}
+#meni>ul>li>a{
+	text-decoration: none;
+	padding:10px;
+	border-radius: 10px;
+}
+#meni>ul>li>a:hover{
+	background-color:wheat;
+}
+.izloguj_se{
+	background-color:#f2f2f2;
+
+}
+.izloguj_se:hover{
+	background-color: #f2f2f2;
+}
+.aktivno{
+	background-color: #9999ff;
+}
+footer{
+	width:100%;
+	height: 50px;
+	background-color:silver;
+	bottom:0;
+	color:white;
+	text-align: center;
+}
+#glavni_sadrzaj{
+	width:100%;
+	height:auto;
+	min-height: calc(100% - 150px);
+}
+
+#ime_prezime{
+	height: 100%;
+	width:20%;
+	font-size: 30px;
+	text-align: center;
+	float:left;
+}
+#ime_prezime>p{
+	margin-top:30px;
+	color:white;
+}
+
+#donji_meni{
+	width: 100%;
+	height: 100px;
+	text-align:center;
+}
+#donji_meni>h1{
+	margin:0;
+}
+
+#lista_zakazano{
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+	height: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.cistac{
+	clear: both;
+}
+#lista_pacijent_vreme{
+	margin:auto;
+	width:60%;
+	font-size: 20px;
+}
+#lista_pacijent_vreme tr td{
+	height: 30px;
+}
+
+#meni_1{
+	display: block;
+	width:100%;
+	height: 100px;
+	background-color:silver;
+	text-align:center;
+	position:fixed;
+	top:0;
+	opacity: 0.7;
+}
+#meni_1>a{
+	text-decoration: none;
+	font-size: 40px;
+	font-style:italic;
+	color:white;
+}
+#meni_1>a:hover{
+	color:red;
+}
+#border-red{
+	border:1px solid red;
+}
+
+.pregledi_tabela{
+	display:inline-block;
+	margin:0px 15px;
+	font-size: 20px;
+	min-height: 200px;
+	background-color: #f2f2f2;
+}
+
+.color-green{
+	color:#66ff33;
+}
+.color-orange{
+	color:#ff9900;
+}
+.color-blue{
+	color:#3399ff;
+}
+
+#lista-intervencije{
+	
+	width:100%;
+	height: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.intervencije_tabela{
+	margin:auto;
+	font-size: 20px;
+	min-height: 200px;
+	background-color: #f2f2f2;
+	width:70%;
+}
+.intervencije_tabela>table{
+	margin:auto;
+}
+.intervencije_tabela th , .intervencije_tabela td{
+	width:150px;
+}
+
+#forma_div{
+	width:100%;
+	height: 50px;
+	text-align: center;
+	font-size:20px;
+}
+#forma_div input{
+	margin-right: 30px;
+}
+
+.intervencije_tabela th{
+	color:#66ff33;
+}
+#lista-pacijenti{
+	
+	width:100%;
+	height: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.color_50_silver{
+	color:#808080;
+}
+
+#editovanje_forma{
+	margin:100px auto;
+	width:65%;
+	height: 200px;
+	text-align: center;
+}
+
+#edit_submit{
+	width:70px;
+	font-size:20px;
+	height:30px;
+}
+
+a{
+	text-decoration:none;
+}
+#dodaj_intervenciju{
+	margin:10px;
+}
+
+.statistika_segment{
+	width:70%;
+	height:auto;
+	border:2px solid silver;
+	margin:30px auto;
+	text-align:center;
+	padding-bottom:20px;
+	
+}
+
+.statistika_segment>table{
+	height: 400px;
+	font-size: 20px;
+	width:50%;
+}
+#starosna_grupa{
+	height: 1300px;
+}
+
+.statistika_segment>h2{
+	color:#0066ff;
+}
+
+
+
+.paginacija { margin-top: 1em; }
+	.paginacija a,
+	.paginacija div { display: inline-block;
+	 border: 1px solid silver;
+	  border-radius: 1em;
+	   padding: 0.25em 0.5em; }
+	.paginacija div { background-color: #ff9900; }
+
+
